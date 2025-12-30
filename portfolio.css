@@ -90,9 +90,59 @@ ul li a:hover{
 
 /* About Section */
 
+#about{
+    margin: 80px auto;
+    width: 70%;
+    text-align: center;
+}
 
+#about h2{
+    font-size: 36px;
+    color: rgb(118, 14, 179);
+    margin-bottom: 25px;
+}
+
+#about p{
+    font-size: 20px;
+    line-height: 1.8;
+    color: #ccc;
+    text-align: center;
+    text font-family: Arial, sans-serif;
+}
 
 /* Projects Section */
+
+.project-header{
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: Arial, sans-serif;
+
+    font-size: 36px;
+    color: rgb(154, 10, 221);
+}
+
+.project-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex: wrap:
+}
+
+.project-item img{
+    width: 300px;
+    height: 200px;
+    background-color: #333;
+    display: block;
+    border-radius: 8px;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    color: rgb(202, 26, 85);
+}
 
 
 
