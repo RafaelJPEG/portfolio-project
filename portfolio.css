@@ -124,7 +124,7 @@ ul li a:hover{
 .project-container{
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 31px;
     flex: wrap:
 }
 
@@ -147,7 +147,6 @@ ul li a:hover{
 
 
 /* Contact Section */
-/* ===== CONTACT SECTION (BASIC & CENTERED) ===== */
 
 #contact {
     text-align: center;
@@ -160,14 +159,14 @@ ul li a:hover{
     margin: 0 auto;
 }
 
-/* Title */
+
 .contact-info h2 {
     font-size: 36px;
     color: rgb(202, 26, 85);
     margin-bottom: 25px;
 }
 
-/* Labels */
+
 .contact-info label {
     display: block;
     font-size: 16px;
@@ -175,7 +174,7 @@ ul li a:hover{
     margin-bottom: 5px;
 }
 
-/* Inputs & textarea */
+
 #name,
 #email,
 #message {
@@ -189,7 +188,7 @@ ul li a:hover{
     font-size: 14px;
 }
 
-/* Button */
+
 .cbtn {
     display: block;
     margin: 0 auto;
@@ -203,7 +202,7 @@ ul li a:hover{
     cursor: pointer;
 }
 
-/* Button hover */
+
 .cbtn:hover {
     background-color: rgb(154, 10, 221);
 }
