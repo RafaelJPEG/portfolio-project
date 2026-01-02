@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -69,13 +70,25 @@ ul li a:hover{
 
 #info a{
     text-decoration: none;
-    color: violet;
-    background: white;
+    color: rgb(0, 0, 0);
+    background: rgb(202, 26, 85);;
     padding: 10px 18px;
     border-radius: 5px;
     display: inline-block;
     margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
 
+}
+
+#info a:hover{
+    background: rgb(118, 14, 179);
+    color: rgb(0, 0, 0);
+    transition: 0.5s ease;
+}
+
+.red{
+    color: rgb(202, 26, 85);
 }
 
 
@@ -105,7 +118,7 @@ ul li a:hover{
 #about p{
     font-size: 20px;
     line-height: 1.8;
-    color: #ccc;
+    color: #f0eeee;
     text-align: center;
     text font-family: Arial, sans-serif;
 }
@@ -119,6 +132,7 @@ ul li a:hover{
 
     font-size: 36px;
     color: rgb(154, 10, 221);
+    line-height: 1.8;
 }
 
 .project-container{
@@ -152,9 +166,11 @@ ul li a:hover{
     text-align: center;
     margin-top: 60px;
     font-family: Arial, sans-serif;
+
+
 }
 
-.contactme {
+.contact-info{
     width: 400px;
     margin: 0 auto;
 }
@@ -172,8 +188,26 @@ ul li a:hover{
     font-size: 16px;
     color: white;
     margin-bottom: 5px;
+    font-weight: bold;
+}
+.contact-info button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 6px;
+  background: rgb(202, 26, 85);
+  color: #000;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  
 }
 
+.contact-info button:hover {
+    background: rgb(118, 14, 179);
+    color: white;
+    transition: 0.5s ease;}
 
 #name,
 #email,
